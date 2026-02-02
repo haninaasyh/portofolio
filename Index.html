@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanina Syahidah | Agroindustrial Systems Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Plus+Jakarta+Sans:wght@400;500;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        h1, h2, h3, .nav-font {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        .glass-morphism {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900">
+
+    <!-- Header / Navigation -->
+    <nav class="fixed w-full z-50 glass-morphism shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <div class="flex-shrink-0">
+                    <span class="text-xl font-bold tracking-tight text-emerald-700">Hanina Syahidah</span>
+                </div>
+                <!-- Desktop Menu -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8 nav-font font-medium">
+                        <a href="#home" class="text-slate-600 hover:text-emerald-700 transition-colors">Home</a>
+                        <a href="#about" class="text-slate-600 hover:text-emerald-700 transition-colors">About</a>
+                        <a href="#skills" class="text-slate-600 hover:text-emerald-700 transition-colors">Skills</a>
+                        <a href="#portfolio" class="text-slate-600 hover:text-emerald-700 transition-colors">Portfolio</a>
+                        <a href="#contact" class="text-slate-600 hover:text-emerald-700 transition-colors">Contact</a>
+                    </div>
+                </div>
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-slate-600 focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-slate-100 px-4 pt-2 pb-6 space-y-2 shadow-lg">
+            <a href="#home" class="block px-3 py-2 text-slate-600">Home</a>
+            <a href="#about" class="block px-3 py-2 text-slate-600">About</a>
+            <a href="#skills" class="block px-3 py-2 text-slate-600">Skills</a>
+            <a href="#portfolio" class="block px-3 py-2 text-slate-600">Portfolio</a>
+            <a href="#contact" class="block px-3 py-2 text-slate-600">Contact</a>
+        </div>
+    </nav>
+
+    <!-- 2. Beranda (Home) -->
+    <section id="home" class="min-h-screen flex items-center pt-20 hero-gradient">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="order-2 md:order-1 text-center md:text-left">
+                    <p class="text-emerald-600 font-semibold tracking-widest uppercase text-sm mb-2">Agroindustrial Systems • Process Thinking • Sustainable Value</p>
+                    <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-4 leading-tight">Hanina Syahidah S.TP.</h1>
+                    <h2 class="text-xl md:text-2xl text-slate-600 mb-6 font-light">Pengelolaan Sistem dan Proses Agroindustri</h2>
+                    <p class="text-slate-600 mb-8 leading-relaxed max-w-xl">
+                        Saya merupakan lulusan Teknologi Industri Pertanian Universitas Padjadjaran yang memiliki ketertarikan pada pengelolaan sistem agroindustri secara terstruktur dan berkelanjutan. Latar belakang pendidikan saya membentuk cara berpikir yang sistematis, analitis, dan berorientasi pada nilai tambah.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                        <a href="#portfolio" class="px-8 py-3 bg-emerald-700 text-white rounded-full font-medium shadow-lg hover:bg-emerald-800 transition-all text-center">View Portfolio</a>
+                        <a href="#contact" class="px-8 py-3 bg-white text-emerald-700 border border-emerald-100 rounded-full font-medium shadow-sm hover:shadow-md transition-all text-center">Get in Touch</a>
+                    </div>
+                </div>
+                <div class="order-1 md:order-2 flex justify-center">
+                    <div class="relative w-72 h-72 md:w-96 md:h-96">
+                        <!-- Decorative Frame -->
+                        <div class="absolute inset-0 bg-emerald-100 rounded-3xl -rotate-3 transition-transform group-hover:rotate-0 duration-500"></div>
+                        <div class="absolute inset-0 border-2 border-emerald-200 rounded-3xl rotate-3"></div>
+                        <!-- Updated Image -->
+                        <img src="https://raw.githubusercontent.com/haninaasyh/portofolio/refs/heads/main/DSC_0461-2.jpg" 
+                             alt="[attachment_0](attachment)" 
+                             class="absolute inset-0 w-full h-full object-cover rounded-3xl shadow-2xl transition-all duration-500 hover:scale-[1.03]"
+                             onerror="this.src='https://via.placeholder.com/400x400?text=Hanina+Syahidah'">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. Tentang Saya (About Me) -->
+    <section id="about" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-16 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold text-slate-900 mb-6 border-l-4 border-emerald-500 pl-4 uppercase tracking-wider">Tentang Saya</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed text-lg">
+                        Saya adalah lulusan Teknologi Industri Pertanian Universitas Padjadjaran dengan minat pada integrasi proses produksi, manajemen, dan kualitas dalam industri pertanian. Selama masa studi, saya terbiasa melihat suatu proses secara menyeluruh serta mengidentifikasi peluang perbaikan untuk meningkatkan efisiensi dan kualitas.
+                    </p>
+                    <p class="text-slate-600 mb-8 leading-relaxed text-lg">
+                        Saya meyakini bahwa sistem agroindustri yang baik tidak hanya menghasilkan produk, tetapi juga menciptakan nilai jangka panjang melalui perencanaan yang matang dan pengelolaan yang berkelanjutan.
+                    </p>
+                    <div class="bg-slate-50 p-6 rounded-xl border border-slate-100">
+                        <h3 class="font-bold text-slate-800 mb-3 flex items-center">
+                            <i class="fas fa-graduation-cap mr-3 text-emerald-600"></i> Pendidikan
+                        </h3>
+                        <ul class="space-y-2 text-slate-600">
+                            <li><span class="font-semibold text-slate-700">SMPIT Alamy</span></li>
+                            <li><span class="font-semibold text-slate-700">SMAN 1 Subang</span></li>
+                            <li><span class="font-semibold text-emerald-700 italic">Teknologi Industri Pertanian - Universitas Padjadjaran</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="bg-emerald-50 p-8 rounded-2xl text-center border border-emerald-100">
+                        <div class="text-3xl font-bold text-emerald-700 mb-1">Process</div>
+                        <div class="text-sm text-emerald-600/70 font-medium">Oriented</div>
+                    </div>
+                    <div class="bg-slate-900 p-8 rounded-2xl text-center text-white">
+                        <div class="text-3xl font-bold text-emerald-400 mb-1">System</div>
+                        <div class="text-sm text-slate-400 font-medium">Thinking</div>
+                    </div>
+                    <div class="bg-slate-100 p-8 rounded-2xl text-center border border-slate-200">
+                        <div class="text-3xl font-bold text-slate-700 mb-1">Value</div>
+                        <div class="text-sm text-slate-500 font-medium">Driven</div>
+                    </div>
+                    <div class="bg-emerald-600 p-8 rounded-2xl text-center text-white">
+                        <div class="text-3xl font-bold text-white mb-1">Agro</div>
+                        <div class="text-sm text-emerald-100 font-medium">Specialist</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. Keahlian (Skills) -->
+    <section id="skills" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-12 text-center">Keahlian & Kompetensi</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Professional Skills -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="text-xl font-bold text-emerald-700 mb-6 flex items-center">
+                        <i class="fas fa-briefcase mr-3"></i> Professional Skills
+                    </h3>
+                    <div class="space-y-5">
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-slate-700 font-medium text-sm uppercase tracking-wide">Process and System Thinking</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-2">
+                                <div class="bg-emerald-500 h-2 rounded-full w-full"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-slate-700 font-medium text-sm uppercase tracking-wide">Basic Production & Quality Analysis</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-2">
+                                <div class="bg-emerald-500 h-2 rounded-full w-[90%]"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-slate-700 font-medium text-sm uppercase tracking-wide">Data Interpretation</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-2">
+                                <div class="bg-emerald-500 h-2 rounded-full w-[85%]"></div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-2">
+                                <span class="text-slate-700 font-medium text-sm uppercase tracking-wide">Digital Portfolio Development</span>
+                            </div>
+                            <div class="w-full bg-slate-100 rounded-full h-2">
+                                <div class="bg-emerald-500 h-2 rounded-full w-[80%]"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Personal Skills -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <h3 class="text-xl font-bold text-emerald-700 mb-6 flex items-center">
+                        <i class="fas fa-user-check mr-3"></i> Personal Skills
+                    </h3>
+                    <div class="grid grid-cols-1 gap-3">
+                        <div class="flex items-center space-x-4 p-3 bg-slate-50 rounded-xl border border-transparent hover:border-emerald-200 transition-all">
+                            <div class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-brain text-xs"></i>
+                            </div>
+                            <span class="text-slate-700 font-medium">Analytical & Structured Mindset</span>
+                        </div>
+                        <div class="flex items-center space-x-4 p-3 bg-slate-50 rounded-xl border border-transparent hover:border-emerald-200 transition-all">
+                            <div class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-search text-xs"></i>
+                            </div>
+                            <span class="text-slate-700 font-medium">Attention to Detail</span>
+                        </div>
+                        <div class="flex items-center space-x-4 p-3 bg-slate-50 rounded-xl border border-transparent hover:border-emerald-200 transition-all">
+                            <div class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-pen-nib text-xs"></i>
+                            </div>
+                            <span class="text-slate-700 font-medium">Clear Written Communication</span>
+                        </div>
+                        <div class="flex items-center space-x-4 p-3 bg-slate-50 rounded-xl border border-transparent hover:border-emerald-200 transition-all">
+                            <div class="bg-emerald-100 text-emerald-600 w-8 h-8 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <i class="fas fa-sync text-xs"></i>
+                            </div>
+                            <span class="text-slate-700 font-medium">Adaptability & Continuous Learning</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Portofolio / Proyek -->
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-12 uppercase tracking-widest">Featured Portfolio</h2>
+            <div class="max-w-4xl mx-auto text-left">
+                <div class="bg-white rounded-[2.5rem] overflow-hidden shadow-xl border border-slate-100 flex flex-col md:flex-row h-full">
+                    <div class="md:w-1/3 bg-slate-900 flex flex-col items-center justify-center p-8 text-center">
+                        <i class="fas fa-microchip text-5xl text-emerald-400 mb-4"></i>
+                        <h4 class="text-emerald-400 font-bold uppercase tracking-widest text-xs">System Thinking</h4>
+                    </div>
+                    <div class="md:w-2/3 p-10 flex flex-col justify-center">
+                        <h3 class="text-2xl font-bold text-slate-800 mb-4">Perancangan Sistem Kerja Skala Kecil Berbasis Agroindustri</h3>
+                        <p class="text-slate-600 mb-6 leading-relaxed">
+                            Menyusun konsep sistem kerja agroindustri skala kecil yang terstruktur dan berkelanjutan dengan mempertimbangkan alur proses, sumber daya, dan efisiensi operasional.
+                        </p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-lg border border-emerald-100">SYSTEM DESIGN</span>
+                            <span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-lg border border-emerald-100">SUSTAINABILITY</span>
+                            <span class="px-3 py-1 bg-emerald-50 text-emerald-700 text-xs font-bold rounded-lg border border-emerald-100">PROCESS IMPROVEMENT</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Pengalaman / Prestasi -->
+    <section class="py-24 bg-slate-900 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold mb-16 text-center">Pengalaman & Pencapaian</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-12 relative">
+                <div class="text-center group">
+                    <div class="mb-6 relative inline-block">
+                        <div class="w-16 h-16 bg-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
+                            <i class="fas fa-university text-2xl text-emerald-400"></i>
+                        </div>
+                    </div>
+                    <h4 class="font-bold mb-2">Proyek Akademik</h4>
+                    <p class="text-slate-400 text-sm">Fokus pada sistem agroindustri berkelanjutan selama di FTIP Unpad.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="mb-6 relative inline-block">
+                        <div class="w-16 h-16 bg-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
+                            <i class="fas fa-fingerprint text-2xl text-emerald-400"></i>
+                        </div>
+                    </div>
+                    <h4 class="font-bold mb-2">Personal Branding</h4>
+                    <p class="text-slate-400 text-sm">Pengembangan identitas profesional melalui platform digital.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="mb-6 relative inline-block">
+                        <div class="w-16 h-16 bg-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
+                            <i class="fas fa-laptop-code text-2xl text-emerald-400"></i>
+                        </div>
+                    </div>
+                    <h4 class="font-bold mb-2">Skill Digital</h4>
+                    <p class="text-slate-400 text-sm">Penguasaan alat analisis data dan pengembangan portofolio.</p>
+                </div>
+                <div class="text-center group">
+                    <div class="mb-6 relative inline-block">
+                        <div class="w-16 h-16 bg-emerald-500/20 rounded-2xl flex items-center justify-center group-hover:rotate-12 transition-transform">
+                            <i class="fas fa-id-card text-2xl text-emerald-400"></i>
+                        </div>
+                    </div>
+                    <h4 class="font-bold mb-2">BEM FTIP Unpad</h4>
+                    <p class="text-slate-400 text-sm">Aktif dalam organisasi kemahasiswaan untuk mengasah kepemimpinan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Kontak -->
+    <section id="contact" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-5xl mx-auto bg-slate-50 rounded-[3rem] overflow-hidden shadow-xl border border-slate-100 grid md:grid-cols-5">
+                <div class="md:col-span-2 p-12 bg-emerald-700 text-white flex flex-col justify-between">
+                    <div>
+                        <h2 class="text-3xl font-bold mb-4">Mari Terhubung</h2>
+                        <p class="text-emerald-100 mb-8">Saya terbuka untuk diskusi profesional terkait sistem agroindustri dan manajemen proses.</p>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-center space-x-4 group">
+                                <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-emerald-700 transition-all">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <span class="font-medium">hsyahidah4@gmail.com</span>
+                            </div>
+                            <div class="flex items-center space-x-4 group">
+                                <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-emerald-700 transition-all">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <span class="font-medium">0812-****-****</span>
+                            </div>
+                            <div class="flex items-center space-x-4 group">
+                                <div class="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center group-hover:bg-white group-hover:text-emerald-700 transition-all">
+                                    <i class="fab fa-instagram"></i>
+                                </div>
+                                <span class="font-medium">@haninasyh_</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-12 text-xs text-emerald-200 tracking-widest uppercase font-bold">
+                        Professional Inquiry Only
+                    </div>
+                </div>
+                <div class="md:col-span-3 p-12 flex flex-col justify-center items-center text-center">
+                    <div class="w-20 h-20 bg-emerald-100 rounded-full flex items-center justify-center mb-6">
+                        <i class="fas fa-paper-plane text-2xl text-emerald-600"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 mb-4">Kirim Pesan Sekarang</h3>
+                    <p class="text-slate-600 mb-8 max-w-sm">Anda dapat menghubungi saya langsung melalui email untuk merespons portofolio ini.</p>
+                    <a href="mailto:hsyahidah4@gmail.com" class="px-10 py-4 bg-emerald-600 text-white font-bold rounded-2xl shadow-lg hover:bg-emerald-700 hover:-translate-y-1 transition-all">
+                        Hubungi via Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p class="text-slate-500 text-sm mb-4">© 2026 Hanina Syahidah • Sistem Agroindustri Terstruktur</p>
+            <div class="flex justify-center space-x-4">
+                <a href="#" class="text-slate-400 hover:text-emerald-600 transition-colors"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="text-slate-400 hover:text-emerald-600 transition-colors"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle mobile menu
+        const mobileMenuBtn = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on click
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+</body>
+</html>
